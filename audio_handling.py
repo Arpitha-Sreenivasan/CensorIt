@@ -40,16 +40,7 @@ def init_cred():
     os.environ['GOOGLE_CLOUD_SPEECH_CREDENTIALS'] = r"censorit_credentials.json"
 
     GOOGLE_CLOUD_SPEECH_CREDENTIALS = r"""{
-        "type": "service_account",
-        "project_id": "censoritmidsem",
-        "private_key_id": "9c849df4af2fdb93c9e0b9b0d1896193d66e05ea",
-        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDR/EsfxpLRHqcO\ntqMq2PFnBONnCVQ39fLf8/0SPtLy8EAtSC68Fi41HOqeimeuAxGHP+Dz26cYnoBp\nQRKM0KUnojSyYIxklvhtDzwauEiu2qP0K9FZ/GyvqVpE3kvOIo7ryAT3bFwUw0wE\nAOkzPjinpTdEqfx+NPhDvMfq1hz6c/Xr6xs2c8XxCeWx6OR6MDsxMU3BoeeX/72f\nX7Zs5VIiQjSk23CutdrPWL6ZPH/AHMoG0MztER64XUEHn379sGgW1UdiI/DL/EBH\nC9fk+He0jIwtTDp+MFYxI+ls/V7oIRFl6T3loLNb6RywNcRolqA8WRMcPBPLk+PK\nwRhEEBJZAgMBAAECggEAAtm5RMYV8fwRCcWX7HDDnZQJMfCo1jp+RS4lpj8dE9Oa\nXtnZWka1YEx8Z7ZoRJyGMeO/mX/ZC3twevQnHM/QjPuux+BApVnHAtSPeGI+LTMv\nU5T+sS3z93bFtSRV8hmfSA1iQ03cMUetH7SA457U91bFvhRgXZQ5f/cKuSID8kKu\nR0EQD3f/eD3J+s7aY8Gih5KQBpVcJTkEpfTL7jxG33VpUDaEvmRQoy4O9TtN6iPp\nYvluJw9P+IbiWIKR+dObZr+1x2tMCDuXr4gnp5H1YkE2miQlOzxjjqs4Ut8Yv8Wa\nAASJrALIjaNd9dAjTRwnwqiuW17FfOKOH6hgJnHrEwKBgQDyV8joSJoCefLJI8+E\nEYLogypqfqkmqywesZdaqNyyOdwmL+cNkGiwQSN2hzto+g0GEMhYryUUWudRdJo+\nGMgRktH+uGwe5rJzDFgYI8QgP0p5s8rYXa6IlwyfcHqKdd+4xFiNe7RP/Ogh9434\ntZZis6xTIyKSL6FCCXMmR81aCwKBgQDd0bKKlTR8bGOxmvPPBQDvwWH+8mmR/0Hz\nXzxrFv3X/lnKKUg4BZlkf6lE51yIXvi8vQHcXwtq6Y6tquMokT/fnHXny8EQCth9\ni/o3VbHwlek3oxOZmGJqP3NFMQdjlL8pQszmG3tNXBur2E0JmSLO8fgd6Rzge4WR\n40fLEQ/nqwKBgDFY4Mcz6XBxppeAnEP3UOHJu7xduFHwbxZ88SX71pzQHV0FShY/\n/qFNUkxTcyyIJljC2Bj+6R0A+bNje/kDENJLREmLAjE0pse4jsOznL84RBEOJFL0\nmJKlt2NMAxfosrqr+KAuvWPASwCHqTgoucu1bHStZd/ApSSOSg1Ud6NLAoGABokm\nNJUe3cenzFTfeCsSkv3ksEleOPIHdG9K7XDY++M/rAg5W4U2ttJYH3KdtFrwA0ei\nZWbbhEPrc0yEsu5Mrn8Crli/kIRxSom0TqsUuh0AqSYB7tWhmLXT5KcEK7f3RfT0\n6pbGtEnReue9pVnAv847XE5BDpA1KE5FEEOpb08CgYB3fJVtm9pzVCqAaWARulL2\nPG5IoOrdroyEpUHEEdFl11HD3Ssebu/4xXtvm9bWGaLQs7fNNnYPmNLAx/XoMzZ3\n7SUCK4GP9FvP30huyDFElmhKvHNGjgF2j6vXgRNhlwRewUxdzHLoDUwnpVu0J7sP\nF3RLlY/zfl8/4prsC9yhPA==\n-----END PRIVATE KEY-----\n",
-        "client_email": "censortest@censoritmidsem.iam.gserviceaccount.com",
-        "client_id": "107624139963997383763",
-        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        "token_uri": "https://oauth2.googleapis.com/token",
-        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/censortest%40censoritmidsem.iam.gserviceaccount.com"
+       #enter key
     }
     """
     return GOOGLE_CLOUD_SPEECH_CREDENTIALS
