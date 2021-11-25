@@ -1,0 +1,86 @@
+.u-section-1 {
+    background-image: url("backgrd.jpg");
+    background-position: 50% 50%;
+  }
+  
+  .u-section-1 .u-sheet-1 {
+    min-height: 500px;
+  }
+  
+  .u-section-1 .u-text-1 {
+    font-family: 'Special Elite';
+    font-weight: 400;
+    margin: 26px auto 0 20px;
+  }
+  
+  .u-section-1 .u-text-2 {
+    font-weight: 400;
+    font-family: 'Special Elite';
+    margin: 58px auto 0 20px;
+  }
+  
+  .u-section-1 .u-text-3 {
+    font-weight: 400;
+    font-family: 'Special Elite';
+    margin: -30px auto 0 254px;
+  }
+  
+  .u-section-1 .u-text-4 {
+    font-weight: 400;
+    font-family: 'Special Elite';
+    margin: 61px auto 0 20px;
+  }
+  
+  .u-section-1 .u-text-5 {
+    font-weight: 400;
+    font-family: 'Special Elite';
+    margin: -30px auto 60px 304px;
+  }
+  
+  @media (max-width: 1199px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 412px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 316px;
+    }
+  
+    .u-section-1 .u-text-3 {
+      margin-left: 195px;
+    }
+  
+    .u-section-1 .u-text-5 {
+      margin-left: 233px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 237px;
+    }
+  
+    .u-section-1 .u-text-3 {
+      margin-left: 146px;
+    }
+  
+    .u-section-1 .u-text-5 {
+      margin-left: 175px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 149px;
+    }
+  
+    .u-section-1 .u-text-3 {
+      margin-left: 92px;
+    }
+  
+    .u-section-1 .u-text-5 {
+      margin-left: 110px;
+    }
+  }
