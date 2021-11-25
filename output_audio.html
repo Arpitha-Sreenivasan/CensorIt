@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>
+            output
+        </title>
+    </head>
+    <body>
+        <audio controls="controls" src="{{ url_for('static', filename='output/silenced.wav') }}" type="audio/wav">
+            Your browser does not support the HTML5 audio element.
+        </audio>
+        <p>{{ transcript }}</p>
+    </body>
+</html>

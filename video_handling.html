@@ -1,0 +1,15 @@
+<html>
+    <head><title>audio handle</title></head>
+    <body>
+        <div class="container col-md-4">
+            <form method="POST" action="/upload_vid_file" enctype="multipart/form-data" >
+                <h5 style="font-family: 'Amatic SC', cursive; font-size: 30pt; color:black;">upload video:</h5>
+                <input id="audioFileChooser" name="video_name" type="file" style="font-family: 'Amatic SC', cursive; font-size: 30pt; color:black;">
+                Want subtitles?
+                <input type="radio" name="options" id="with_sub" value="with_sub"> Yes </input><br>
+                <input type="radio" name="options" id="without_sub" value="without_sub"> No </input><br>
+                <button name="submit" type="submit" style="font-family: 'Amatic SC', cursive; font-size: 30pt; color:black;">Submit</button>
+            </form>
+            </div>
+    </body>
+</html>
